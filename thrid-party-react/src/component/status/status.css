@@ -1,0 +1,43 @@
+.status {
+  border-bottom: 1px solid rgba(148, 162, 180, 0.2);
+  background: #fff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.02);
+  padding: 15px 0;
+  ul {
+    display: flex;
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      padding: 0 10px;
+      i {
+        display: flex;
+        width: 46px;
+        height: 46px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 30px;
+        background: rgba(148, 162, 180, 0.2);
+      }
+      div {
+        min-width: 317px;
+        border-right: 1px solid rgba(199, 211, 225, 0.5);
+
+        h4 {
+          margin-bottom: 5px;
+        }
+        span {
+          color: #3d4c5e;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+    .select {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

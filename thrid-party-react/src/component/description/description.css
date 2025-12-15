@@ -1,0 +1,273 @@
+.description {
+    background: #f5f5f5;
+    padding: 30px 0;
+
+    .description_data {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        .description_cover {
+            .des_overview {
+                border-radius: 10px;
+                box-shadow: 0 1px 7.8px 0 rgba(22, 71, 129, 0.05);
+                padding: 15px;
+                background: #fff;
+                margin-bottom: 9px;
+
+                h4 {
+                    color: #090b0e;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 3px;
+                }
+            }
+
+            .resources_cover {
+                background: #fff;
+                border-radius: 10px;
+
+                .resources {
+                    display: flex;
+                    padding: 10px 15px;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid rgba(199, 211, 225, 0.5);
+                    border-radius: 10px;
+                    background: #fff;
+                    margin-bottom: 15px;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+                        border-radius: 20px;
+                        background: #eaecf0;
+
+                        li {
+                            color: #546881;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 1;
+                        }
+                    }
+                }
+
+                /* ================ drag_drop ================ */
+                .drag_drop {
+                    margin: 0px 15px;
+                    border-radius: 10px;
+                    border: 1px dashed #cbd0dc;
+                    background: #f9fafb;
+                    margin-bottom: 20px;
+
+                    .drag {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        padding-top: 15px;
+
+                        .drag_items {
+                            margin-top: 10px;
+
+                            h4 {
+                                margin-bottom: 10px;
+                                color: #090b0e;
+                                text-align: center;
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+
+                            span {
+                                color: #6a7378;
+                                font-size: 14px;
+                                font-weight: 400;
+                                display: block;
+                                margin-bottom: 8px;
+                            }
+
+                            .upload {
+                                text-align: center;
+                                font-size: 12px;
+                                font-weight: 500;
+                                border-radius: 30px;
+                                background: #fff;
+                                padding: 6px 20px;
+                                margin-bottom: 15px;
+                                width: 50%;
+                                margin: auto;
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .uploaded {
+                padding: 15px;
+
+                h4 {
+                    margin-bottom: 15px;
+                }
+
+                .pdf_cover {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 6px;
+
+                    .upload_data {
+                        min-width: 479px;
+                        border-radius: 6px;
+                        border: 1px solid #e5e7e9;
+                        background: #f9fafb;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .pdf_data {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 5px;
+
+                            svg {
+                                margin-right: 5px;
+                            }
+
+                            h4 {
+                                color: #3d4c5e;
+                                font-size: 13px;
+                                font-weight: 500;
+                                line-height: normal;
+                                margin-bottom: 3px;
+                            }
+
+                            h5 {
+                                color: #3d4c5e;
+                                font-size: 12px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+
+                    .file_type {
+                        h4 {
+                            color: #6a7378;
+                            font-size: 12px;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .pdf_profile {
+                        display: flex;
+                        gap: 5px;
+
+                        img {
+                            width: 32px;
+                            height: 32px;
+                        }
+
+                        h4 {
+                            color: #3d4c5e;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            /* vechiles */
+            .vechile {
+                padding-bottom: 15px;
+                padding-left: 15px;
+                padding: 15px;
+
+                .vechile_cover {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                }
+
+                .save {
+                    padding: 10px 25px;
+                    align-items: center;
+                    border-radius: 6px;
+                    background: #164781;
+                    width: 3px;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    .notes_cover {
+        background: #fff;
+        border-radius: 10px;
+
+        .notes {
+            padding: 15px;
+            border-bottom: 1px solid rgba(199, 211, 225, 0.5);
+        }
+    }
+
+    ul {
+        li {
+            display: flex;
+            padding: 15px;
+            gap: 15px;
+            border-bottom: 1px solid rgba(199, 211, 225, 0.5);
+
+            img {
+                width: 36px;
+                height: 36px;
+                border-radius: 76px;
+            }
+
+            h4 {
+                color: #090b0e;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1;
+                margin-bottom: 8px;
+
+                span {
+                    color: #3d4c5e;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 1px;
+                }
+            }
+        }
+
+        .text_area {
+            position: relative;
+
+            textarea {
+                width: 100%;
+                border-radius: 12px;
+                box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.06);
+                border: 1px solid rgba(139, 169, 215, 0.4);
+                background: #fff;
+                min-height: 80px;
+            }
+
+            img {
+                position: absolute;
+                right: 20px;
+                top: 23px;
+                border-radius: 0;
+            }
+        }
+    }
+
+    ul {
+        li.text_area {
+            border-bottom: none;
+        }
+    }
+}
