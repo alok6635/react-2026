@@ -1,0 +1,26 @@
+header {
+    .container {
+        padding: 20px 15px;
+
+        .header_cover {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .header_text {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    li {
+                        color: #717196;
+                        font-family: Inter;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 1;
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}

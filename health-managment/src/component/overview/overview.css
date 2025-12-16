@@ -1,0 +1,185 @@
+.overview {
+    padding: 0px 15px;
+
+    .container {
+        .overview_cover {
+            padding: 6px;
+            border-bottom: 1px solid rgba(199, 211, 225, 0.50);
+            display: flex;
+            background: #F9F9FC;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 8px 8px 0 0;
+
+            .overview_details {
+                ul {
+                    display: flex;
+                    gap: 12px;
+
+                    .search {
+                        border-radius: 8px;
+                        border: 1px solid rgba(139, 169, 215, 0.30);
+                        background: #FFF;
+                        padding: 0 10px;
+                        display: flex;
+                        align-items: center;
+
+                        input {
+                            border: none;
+                            outline: none;
+                        }
+                    }
+
+                    .vechile,
+                    .driver,
+                    .near,
+                    .options {
+                        /* border-radius: 8px;
+                        border: 1px solid #E9ECEF;
+                        background: #FFF;
+                        display: flex;
+                        height: 32px;
+                        padding: 0 10px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px; */
+
+                        span {
+                            color: #717196;
+                            text-align: center;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 1
+                        }
+                    }
+
+                    .export {
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                        justify-content: space-between;
+                        border: none;
+                        background: rgb(255, 255, 255);
+                        border-radius: 8px;
+                        cursor: pointer;
+                        padding: 4px 5px;
+                        color: #717196;
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 1;
+                    }
+
+                    .vechile {
+                        position: relative;
+
+                        input {
+                            border: none;
+                            outline: none;
+                        }
+                    }
+
+                    .vehicle_list {
+                        position: absolute;
+                        top: 20px;
+                        flex-direction: column;
+                    }
+
+
+                    li {
+                        select {
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        /*=============== table css====================== */
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: #Ffff;
+            padding: 10px;
+
+            thead {
+                background: #164781;
+
+                th {
+                    color: #F9FAFB;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    padding: 12px 10px;
+                    text-align: left;
+                    font-family: Lato;
+                }
+            }
+
+            tbody {
+                tr {
+                    background: rgb(249, 249, 252);
+                    box-shadow: rgb(189, 187, 187) 0px 0px 2px;
+                    border-radius: 10px;
+                    overflow: hidden;
+
+                    td {
+                        color: rgb(77, 99, 153);
+                        padding: 6px 15px;
+                        font-family: Lato;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+            .resources {
+                border-radius: 4px;
+                padding: 0 5px;
+
+                svg {
+                    background: #E0ECFC;
+                    cursor: pointer;
+                }
+
+            }
+
+            /* .progress {
+                border-radius: 30px;
+                border: 1px solid #F5B849;
+                display: flex;
+                padding: 6px 10px;
+                justify-content: space-between;
+
+                select {
+                    border: none;
+                    background: none;
+                }
+            } */
+
+            .actions {
+                svg {
+                    border-radius: 4px;
+                    background: #E0ECFC;
+                    margin: 0 5px;
+                    width: 24px;
+                    height: 24px;
+                    padding: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .location {
+                color: #1483DE;
+            }
+
+            tr:nth-child(even) {
+                background-color: #EAF3FF;
+            }
+
+        }
+    }
+}
