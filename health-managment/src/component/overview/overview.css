@@ -102,18 +102,22 @@
             border-spacing: 0;
             background: #Ffff;
             padding: 10px;
+            border-spacing: 0 15px;
 
             thead {
                 background: #164781;
 
-                th {
-                    color: #F9FAFB;
-                    font-size: 14px;
-                    font-weight: 500;
-                    text-transform: uppercase;
-                    padding: 12px 10px;
-                    text-align: left;
-                    font-family: Lato;
+                tr {
+                    th {
+                        color: #F9FAFB;
+                        font-size: 14px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        padding: 12px 10px;
+                        text-align: left;
+                        font-family: Lato;
+
+                    }
                 }
             }
 
@@ -137,14 +141,12 @@
             }
 
             .resources {
-                border-radius: 4px;
-                padding: 0 5px;
-
                 svg {
-                    background: #E0ECFC;
                     cursor: pointer;
+                    border-radius: 4px;
+                    padding: 0 4px;
+                    background: rgb(224, 236, 252);
                 }
-
             }
 
             /* .progress {
@@ -161,6 +163,7 @@
             } */
 
             .actions {
+                /* display: flex; */
                 svg {
                     border-radius: 4px;
                     background: #E0ECFC;
@@ -169,6 +172,7 @@
                     height: 24px;
                     padding: 4px;
                     cursor: pointer;
+                    /* display: inline-block; */
                 }
             }
 

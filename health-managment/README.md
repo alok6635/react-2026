@@ -66,7 +66,7 @@ curl -X 'PATCH' \
  'http://0.0.0.0:8000/v1/tms_app/health_and_safety/1' \
  -H 'accept: application/json' \
  -H 'Content-Type: application/json' \
- -d '{
+ -d '
 
 
 <!-- get list API : -->
@@ -74,7 +74,7 @@ curl -X 'PATCH' \
 curl -X 'GET' \
  'http://0.0.0.0:8000/v1/tms_app/health_and_safety/?page=1&per_page=10' \
  -H 'accept: application/json'
-
+ 
 Request URL
 
 http://0.0.0.0:8000/v1/tms_app/health_and_safety/?page=1&per_page=10
