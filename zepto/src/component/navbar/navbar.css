@@ -1,0 +1,56 @@
+.navbar {
+    background: aliceblue;
+    padding: 20px;
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo_detail {
+            padding: 0 15px;
+
+            svg {
+                font-size: 20px;
+            }
+        }
+    }
+}
+.nav_content {
+    li {
+        margin: 0 10px;
+
+        a {
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+        }
+
+        .active {
+            border-bottom: 2px solid red;
+            padding-bottom: 4px;
+        }
+    }
+
+    .cart_count {
+        font-size: 26px;
+        position: relative;
+
+        svg {
+            font-size: 30px;
+        }
+
+        span {
+            position: absolute;
+            top: -12px;
+            font-size: 16px;
+            background: red;
+            padding: 2px 2px;
+            border-radius: 19px;
+            width: 20px;
+            text-align: center;
+            color: #fff;
+            font-weight: 700;
+            left: 15px;
+        }
+    }
+}
